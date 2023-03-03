@@ -1,0 +1,283 @@
+
+@font-face {
+    font-family: 'rus';
+    src: local("Muller-Regular");
+    src: url('../FONTS/111111.woff2') format('woff2'),
+         url('../FONTS/rusregular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'rus';
+    src: local("Muller-Medium");
+    src: url('../FONTS/MullerMedium.woff2') format('woff2'),
+         url('../FONTS/MullerBold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'rus',sans-serif,Arial, Helvetica;
+    min-width: 320px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+  list-style-type:none;
+  color: #121723;
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+  color: #121723;
+}
+
+p {
+  margin:0;
+}
+
+.svg-320px {
+  display: none;
+}
+
+
+
+ .conteiner {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 80px 100px;
+ }
+
+ .conteiner__content {
+    background: #121723;
+    padding: 60px 63px;
+    position: relative;
+ }
+
+ .btn-close {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 30px;
+    right:24px;
+    cursor: pointer;
+ }
+
+.caption {
+   font-weight: 400;
+   line-height: 48px;
+   font-size: 48px;
+   color:#fff;
+   margin-bottom: 19px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color:#fff;
+  margin-bottom: 30px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #6D31EE;
+}
+
+.item {
+    max-width: 75%;
+    margin-bottom: 30px;
+}
+
+.form__input {
+  width: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #A1A6B4;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 44px;
+  padding: 23px 0 23px 27px;
+}
+
+.button-log-in {
+    font-weight: 500;
+    color: #fff;
+    background: #6D31EE;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+  line-height: 20px;
+  padding: 25px 52px;
+  cursor: pointer;
+}
+
+.form {
+    padding-bottom: 32px;
+    border-bottom:1px solid rgba(230, 232, 236, 0.4);
+}
+
+.conteiner-content-bottom {
+padding-top: 30px;
+}
+
+.list-bottom {
+    display: flex;
+}
+
+.item-bottom {
+    margin-right: 6.7%;
+}
+
+@media (max-width: 768px) {
+   .conteiner{
+    padding: 80px 114px;
+  }}
+
+  @media (max-width: 768px) {
+  .conteiner__content {
+    padding: 60px 40px;  
+}}
+
+@media (max-width: 768px) {
+.item {
+  max-width: 100%;
+}}
+
+@media (max-width: 768px) {
+.item-bottom {
+  margin-right: 10.7%;
+}}
+
+@media (max-width: 768px) {
+.form__input {
+  padding: 23px 0 23px 33px;
+}}
+
+@media (max-width: 768px) {
+.button-log-in {
+  padding: 27px 55px;
+}}
+
+@media (max-width: 768px) {
+.form {
+  padding-bottom: 28px;
+}}
+
+@media (max-width: 500px) {
+.conteiner {
+    padding: 80px 32px;
+}}
+
+@media (max-width: 320px) {
+  .caption {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 8px;
+
+  }}
+
+  @media (max-width: 320px) {
+  .text {
+    font-size: 12px;
+    line-height: 18px;
+    color: #A1A6B4;
+    margin-bottom: 18px;
+  }}
+
+  @media (max-width: 320px) {
+  .link {
+    font-size: 12px;
+    line-height: 18px;
+  }}
+
+  @media (max-width: 320px) {
+.conteiner__content {
+    padding: 60px 20px;
+}}
+
+
+@media (max-width: 320px) {
+.conteiner {
+    padding: 56px 32px;
+}}
+
+@media (max-width: 320px) {
+.conteiner__content {
+    padding: 41px 20px;
+}}
+
+@media (max-width: 320px) {
+  .form__input {
+font-size: 16px;
+line-height: 16px;
+  }}
+
+  @media (max-width: 320px) {
+.form__input {
+    padding: 11px 0 11px 18px;
+}}
+
+@media (max-width: 320px) {
+  .item {
+  margin-bottom: 20px; 
+}}
+
+
+@media (max-width: 320px) {
+.button-log-in {
+    padding: 10px 51px;
+}}
+
+@media (max-width: 320px) {
+.conteiner-content-bottom {
+  padding-top: 14px;
+}}
+
+@media (max-width: 320px) {
+.item-bottom {
+    margin-right: 25.7%;
+}}
+
+@media (max-width: 320px) {
+.btn-close {
+  top: 19px;
+  right: 14px;
+}}
+
+@media (max-width: 320px) {
+  .svg-320px{
+    display: block;
+  }}
+@media (max-width: 320px) {
+  .svg {
+    display: none;
+  }}
